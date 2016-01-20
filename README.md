@@ -4,6 +4,7 @@ Python PostgreSQL Sample [![Build Status](https://apibeta.shippable.com/projects
 Tests basic SQL commands using the psycopg2 driver for Python.
 
 This sample is built for Shippable, a docker based continuous integration and deployment platform.
-This sample project will fail when built with python 3.2 and pypy since the coverage package does not support python 3.2 and pypy. 
+This sample project will fail when built with python 3.2 and pypy since the coverage package does not support python 3.2 and psycopg2 package does not support pypy.
 https://github.com/menegazzo/travispy/issues/20 
 https://pypi.python.org/pypi/coverage/4.0.3
+http://initd.org/psycopg/docs/install.html
